@@ -8,6 +8,8 @@ And please only add new entries to the top of this list, right below the `# Unre
 
 # Unreleased
 
+- Add `PartialOrd` and `Ord` to `KeyCode` and `NativeKeyCode` to allow them to be compared, e.g. to store them into a `BTreeSet`
+
 # 0.29.0-beta.0
 
 - On Web, allow event loops to be recreated with `spawn`.
